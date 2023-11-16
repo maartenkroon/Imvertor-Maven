@@ -431,7 +431,7 @@
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
-      <url>https://maven.pkg.github.com/maartenkroon/Imvertor-Maven</url>
+      <url>https://maven.pkg.github.com/maartenkroon/imvertor-maven</url>
     </repository>
   </distributionManagement>
 
