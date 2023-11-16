@@ -426,6 +426,14 @@
       
     </plugins>
   </build>
+  
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/imvertor_test/imvertor</url>
+    </repository>
+  </distributionManagement>
 
   <url>http://www.imvertor.org/</url>
 </project>
