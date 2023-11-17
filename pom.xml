@@ -6,7 +6,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>imvertor_mk</groupId>
   <artifactId>imvertor_mk</artifactId>
-  <version>1-SNAPSHOT</version>
+  <version>3.0.0</version>
   <name>Imvertor</name>
 
   <description>Imvertor under Maven</description>
@@ -370,7 +370,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-shade-plugin</artifactId>
-        <version>3.1.1</version>
+        <version>3.5.1</version>
         <executions>
           <execution>
             <phase>package</phase>
@@ -397,6 +397,7 @@
                   </excludes>
                 </filter>
               </filters>
+              <minimizeJar>true</minimizeJar>
             </configuration>
           </execution>
         </executions>
