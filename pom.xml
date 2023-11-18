@@ -397,7 +397,7 @@
                   </excludes>
                 </filter>
               </filters>
-              <minimizeJar>false</minimizeJar>
+              <minimizeJar>true</minimizeJar>
             </configuration>
           </execution>
         </executions>
